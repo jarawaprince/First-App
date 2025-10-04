@@ -4,10 +4,8 @@ st.title("📝 Prompt Engineer — Advanced Prompt Enhancer")
 st.caption("Demo Mode - Learn how to structure better prompts with RCT + Governance")
 
 # --- RCT Fields ---
-st.subheader("Enter Role, Context, Task (RCT)")
+st.subheader("Enter Role")
 role = st.text_input("Role", value="a helpful assistant")
-context = st.text_area("Context", value="Audience: busy professional; Goal: clear and specific")
-task = st.text_area("Task", value="Rewrite my draft for clarity and ask 1 clarifying question")
 
 # --- Context Requirements ---
 st.subheader("Context Requirements")
